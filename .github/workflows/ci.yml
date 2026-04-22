@@ -30,7 +30,7 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Run build script
-        run: ./scripts/build.sh
+        run: bash ./scripts/build.sh
 
       - name: Upload generated docs artifact
         uses: actions/upload-artifact@v4
