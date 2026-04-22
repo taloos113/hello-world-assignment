@@ -1,0 +1,33 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "..",
+          "files": [
+            "src/HelloWorld.Console/bin/Release/net8.0/HelloWorld.Console.dll"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/toc.yml",
+          "index.md",
+          "toc.yml"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "HelloWorld Console Docs",
+      "_appName": "HelloWorld Console Docs",
+      "_disableContribution": true
+    }
+  }
+}

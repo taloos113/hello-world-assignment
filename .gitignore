@@ -1,0 +1,16 @@
+bin/
+obj/
+TestResults/
+artifacts/
+coverage/
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.nupkg
+*.snupkg
+*.log
+.DS_Store
+docs/_site/
+docs/api/
